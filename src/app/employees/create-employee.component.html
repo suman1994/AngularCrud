@@ -1,4 +1,4 @@
-<form #employeeForm="ngForm" (ngSubmit)="saveEmployees(employeeForm)">
+<form #employeeForm="" (ngSubmit)="saveEmployees(employeeForm)">
   <div class="panel panel-primary">
     <div class="panel-heading">
       <h3 class="panel-title">Create Employee</h3>
@@ -90,7 +90,7 @@
 
       <div class="form-group">
         <label for="dob">Date of Birth</label>
-        <input id="dob" type="text" bsDatepicker class="form-control" placeholder="Enter date of birth" name="dob" [(ngModel)]="employee.dob">
+        <input id="dob" type="text" bsDatepicker class="form-control" placeholder="Enter date of birth" name="dob" [(ngModel)]="employee.dateOfBirth">
       </div>
 
       <div class="form-group">
